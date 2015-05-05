@@ -4,9 +4,11 @@ require "ai4r"
 
 #Creating Neural Network
 #Input layer: 1
-#First Hidden layer: 5
+#First Hidden layer: 10
 #Second Hidden layer: 10
-#Third Hidden layer: 5
+#Third Hidden layer: 10
+#Fourth Hidden layer: 10
+#Fifth Hidden layer: 10
 #Output layer: 6
 
 net = Ai4r::NeuralNetwork::Backpropagation.new([1, 10, 10, 10, 10, 10, 6])
